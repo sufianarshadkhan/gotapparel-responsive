@@ -1,0 +1,594 @@
+@media screen and (max-width: 1130px){
+    .dropdown-container a{
+        font-size: 12px;
+    }
+    .men .detail .heading{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .men .detail ul li a{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .dropdown-container .business{
+        margin-left: -25%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .logoline .searchbar {
+        display: none;
+    }
+    header .navbar{
+        display: none;
+    }
+    .tagnav{
+        display: block;
+    }
+    .tagnav .dropdown-container{
+        margin-right: 2%;
+    }
+    .dropdown-container a{
+        font-size: 11px;
+    }
+    .cartlogo .icon {
+        float: right;
+        display: none;
+    }
+    .services{
+        padding: 5px;
+    }
+    .services div{
+        padding: 0 15px;
+    }
+    .services img{
+        width: 20%;
+        padding: 0;
+    }
+    .services div p{
+    margin: -1px;
+    }
+    .blog_div img {
+        mix-blend-mode: multiply;
+        width: 70%;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .feature .products {
+        display: block;
+    }
+    .products .fashion {
+        width: 23%;
+        float: left;
+        margin: 1%;
+    }
+    .promo h2{
+        font-size: 10px;
+    }
+    .promo p {
+        font-size: 13px;
+    }
+    .promo a {
+        width: 80px;
+        float: left;
+        font-size: 10px;
+    }
+    .detail h3,
+    .detail h4,
+    .detail h5 {
+        font-size: 8px;
+    }
+    .detail span.number {
+        padding: 12px;
+        font-size: 10px;
+    }
+    .detail span.word {
+        font-size: 9px;
+    }
+    .seller .product {
+        max-width: 100%;
+        justify-content: flex-start;
+    }
+    .deal img {
+        padding: 0;
+    }
+    .week .deal{
+        max-width: 40%;
+    }
+    .week .seller {
+        width: 100%;
+    }
+    .product .productimg {
+        width: 31.333%;
+        height: auto;
+    }
+    /*latest products*/
+    .latest .product-container{
+        justify-content: start;
+    }
+    /*blogs*/
+    .blog_div .item {
+        margin: 10px;
+        border-radius: 10px;
+    }
+    /*footer*/
+    .footer .iconbar {
+        padding: 20px 10px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content h2::before {
+        font-size: 25px;
+    }
+
+    .content p {
+        font-size: 11px;
+        margin: 0;
+    }
+
+    .mail a.btn {
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width:900px){
+    .dropdown-container a{
+        font-size: 10px;
+    }
+    .men .detail .heading{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .men .detail ul li a{
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width:800px) {
+    .logoline .brandlogo{
+        width: 30%;
+    }
+    .logoline .cartlogo{
+        width: 20%;
+        text-align: right;
+    }
+    .cartlogo .icon{
+        display: inline-block;
+        margin-left: 4%;
+        display: block;
+   }
+   .tagnav{
+        display: none;
+    }
+    .cartlogo span{
+        display: inline-block;
+    }
+    .brandlogo img {
+        width: 100%;
+    }
+    .product-container .product_div
+    {
+        width: 29%;
+    }
+    /*header*/
+    header .navbar {
+        flex-flow: column;
+    }
+    .navbar .navlink {
+        margin: 10px 0;
+    }
+    .tagnav{
+        display: none;
+    }
+    
+    .tagnav.responsive {
+        position: relative;
+    }
+    .tagnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+    }
+    .tagnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .tag .tagnav{
+        display: flex;
+        flex-flow: column;
+        line-height: 25px;
+    }
+    .tagnav .dropdown-container {
+        display: flex;
+        flex-flow: column;
+    }
+    .dropdown-container:hover .dropdown-content,
+    .dropdown-container:hover .business,
+    .dropdown-container:hover .work{
+        display: none;
+    }
+    .bannercontent img{
+        height: auto;
+    }
+    .services{
+        border: none;
+        margin: auto;
+    }
+    .services div{
+        width: 100%;
+        border: 1px solid #ebebe9 !important;
+        text-align: center;
+        padding: 6px;
+        display: inline-block;
+        margin:4px;
+        border-radius: 10px;
+    }
+    .services div:first-child{
+        border: 1px solid #d9d1d1;
+    }
+    .services img{
+        width: 100%;
+        max-width: 30px;
+        padding: 0;
+    }
+    .services div p{
+        float: none !important;
+        font-size: 9px;
+    }
+    .products .fashion{
+        width: 31.333%;
+        margin: 1%;
+    }
+    .promo{
+        display: none;
+    }
+    .week{
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+    .week .deal{
+        max-width: 100% ;
+        margin-bottom: 30px;
+    }
+    .deal .heading{
+        max-width: 100%;
+    }
+    .deal .imgarea{
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .deal img{
+     width: auto;   
+    }
+    .deal .detail{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        max-width:100% ;
+    }
+    .deal li{
+        margin: 0 5%;
+    }
+    .week .sellers{
+        width: 100% !important;
+    }
+    /*latest products*/
+    .latest .product-container{
+        justify-content: start;
+    }
+
+    .seller .product{
+        justify-content: flex-start;
+    }
+    .gallery .owl-item img{
+        max-width: 100%;
+        width: auto !important;
+        height: 100px;
+    }
+    .gallery .item{
+        margin: 0;
+        max-width: 100%;
+        width: 90px;
+        height: 100px;
+        display: inline-block;
+    }
+    .gallery{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .gallery img{
+        width: auto !important;
+        height: auto;
+    }
+    .brand-carousel img{
+        padding: 0;
+        width: 100%;
+    }
+    .brand-carousel .item{
+        width: 100%;
+        height: auto;
+    }
+    /*footer*/
+    .footer .iconbar{
+        padding: 10px;
+    }
+    .affiliate h3{
+        font-size: 10px;
+    }
+    .icons i{
+        font-size: 11px;
+    }
+    .icons span{
+        width: 30px;
+    } 
+    .footer .contact_details{
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .contact_details .div{
+        width: 100%;
+        max-width: 40%;
+        margin: 10px;
+    }
+    
+    .newsletter .content{
+        margin-bottom: 20px;
+    }
+    .newsletter .mail{
+        margin-left: -60px;
+    }
+    .content h2{
+        font-size: 20px;
+    }
+    .content h2::before{
+        font-size: 20px;
+    }
+    .footer .newsletter {
+        flex-flow: column;
+    }
+    .payment i{
+        font-size: 20px;
+    }
+    .copy p{
+        font-size: 11px;
+    }
+    .arrow i{
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .cartlogo i{
+        padding: 6px;
+        font-size: 12px;
+    }
+    .tagnav.responsive a{
+        font-size: 12px;
+        padding: 8px 0;
+    }
+    .bannercontent img{
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .services div{
+        width: 44%;
+    }
+   .services img{
+        width: 40px;
+   }
+   .services div p{
+        font-size: 10px;
+   }
+    .promo{
+        display: none;
+    }
+    .products .fashion{
+        width: 46%;
+        margin: 2%;
+       
+    }
+    .week{
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+    .week .deal{
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .deal .heading{
+        max-width: 100%;
+    }
+    .deal .imgarea{
+        height: auto;
+        width: auto;
+        max-width: 100%;
+    }
+    .deal img{
+     width: auto;   
+    }
+    .deal .detail{
+        text-align: center;
+    }
+    .week .sellers{
+        width: 100% !important;
+    }
+    .product-container .product_div{
+        width: 46%;
+    }
+    .product .productimg{
+        width: 100%;
+        max-width: 48%;
+        margin: 5px auto;
+    }
+    .blog_div img{
+        padding: 10px;
+    }
+    .ad{
+        display: none;
+    }
+    /*footer*/
+    .gallery .owl-item img{
+        max-width: 100%;
+        width: auto !important;
+        height: 100px;
+    }
+    .gallery .item{
+        margin: 0;
+        height: 100px;
+        display: inline-block;
+        width: 80%;
+    }
+    .gallery{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .gallery img{
+        width: auto !important;
+        height: auto;
+    }
+    .brand-carousel img{
+        padding: 0;
+        width: 100%;
+    }
+    .brand-carousel .item{
+        width: 100%;
+        height: auto;
+    }
+    /*footer*/
+    .footer .iconbar{
+        flex-flow: column;
+        align-items: center;
+    }
+    .iconbar .icons {
+        display: flex;
+        flex-flow: row;
+    }
+    .iconbar .affiliate{
+       flex-flow: row;
+       margin-bottom: 4%;
+    }
+    .affiliate h3{
+        font-size: 10px;
+    }
+    .icons i{
+        font-size: 10px;
+    }
+    .icons span{
+        width: 30px;
+    } 
+    .footer .contact_details{
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .contact_details .div{
+        width: 100%;
+        max-width: 40%;
+        margin: 10px;
+    }
+    
+    .newsletter .content{
+        margin-bottom: 20px;
+    }
+    .newsletter .mail{
+        margin-left: -60px;
+    }
+    .content h2{
+        font-size: 20px;
+    }
+    .content h2::before{
+        font-size: 20px;
+    }
+    .footer .newsletter {
+        flex-flow: column;
+    }
+    .payment i{
+        font-size: 20px;
+    }
+    .copy p{
+        font-size: 11px;
+    }
+    .arrow i{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:420px){
+    header .navbar{
+        display: none;
+    }
+    .banner{
+        display: none;
+    }
+    .services div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        padding: 3%;
+    }
+    .services div p{
+        padding-left: 10px;
+        font-size: 9px;
+    }
+    .seller .heading{
+        flex-wrap: wrap;
+    }
+    .heading .subheading{
+        margin-top: 20px;
+    }
+    .contact_details div:not(:nth-child(5)){
+        width: 100%;
+        max-width: 900%;
+    }
+    
+    .content h2{
+        font-size: 17px;
+    }
+    .content p{
+        font-size: 10px;
+    }
+    .mail input{
+        padding: 10px;
+    }
+    .extreme_bottom{
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        position: relative;
+    }
+    .extreme_bottom .arrow{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width:360px){
+    .brandlogo img{
+        width: 100%;
+    }
+    .cartlogo i{
+        padding: 6px;
+        font-size: 12px;
+    }
+    .deal li{
+        margin: 0 3%;
+    }
+    .deal .detail{
+        justify-content: start;
+    }
+    .detail h5{
+        margin: 6% 3% 0 0;
+    }
+   
+}
