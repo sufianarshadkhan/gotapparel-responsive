@@ -1,0 +1,1 @@
+# gotapparel-responsive
