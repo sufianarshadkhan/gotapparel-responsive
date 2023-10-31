@@ -193,12 +193,10 @@
         display: block;
         text-align: left;
     }
-    .tag .tagnav:hover .dropdown-container{
+    .tagnav .dropdown-container {
+        line-height: 25px;
         display: flex;
         flex-flow: column;
-        line-height: 25px;
-    }
-    .tagnav .dropdown-container {
         width: 100%;
         margin-right: 0;
     }
