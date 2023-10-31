@@ -159,7 +159,7 @@
         margin-left: 4%;
         display: block;
    }
-   .tagnav{
+   .tag .tagnav{
         display: none;
     }
     .cartlogo span{
@@ -179,10 +179,6 @@
     .navbar .navlink {
         margin: 10px 0;
     }
-    .tagnav{
-        display: none;
-    }
-    
     .tagnav.responsive {
         position: relative;
     }
@@ -197,18 +193,18 @@
         display: block;
         text-align: left;
     }
-    .tag .tagnav{
+    .tag .tagnav:hover .dropdown-container{
         display: flex;
         flex-flow: column;
         line-height: 25px;
     }
     .tagnav .dropdown-container {
-        display: flex;
-        flex-flow: column;
         width: 100%;
+        margin-right: 0;
     }
     .dropdown-content a:hover::after{
         content: normal;
+    }
     .dropdown-container:hover .dropdown-content,
     .dropdown-container:hover .business,
     .dropdown-container:hover .work{
