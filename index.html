@@ -40,7 +40,7 @@
             <div class="cartlogo">
                 <span><i class="fa-solid fa-cart-shopping"></i></span>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
+                    <i id="menuIcon" class="fa fa-bars"></i>
                 </a>
             </div>
         </div>
@@ -785,16 +785,24 @@
 
 
         <script>
+            
             function myFunction() {
                 var x = document.getElementById("myTagnav");
+                var icon = document.getElementById("menuIcon");
+                
                 if (x.className === "tagnav" || x.style.display === "none") {
                     x.className += " responsive";
                     x.style.display = "block";
+                    icon.classList.remove("fa-bars");
+                    icon.classList.add("fa-times");
                 } else {
                     x.className = "tagnav";
                     x.style.display = "none";
+                    icon.classList.remove("fa-times");
+                    icon.classList.add("fa-bars");                
                 }
             }
+        
         </script>
         </div>
 
